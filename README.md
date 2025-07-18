@@ -18,7 +18,7 @@ A web-based visualizer for popular pathfinding algorithms built using **ReactJS*
 
 ## 📷 UI Preview
 
-_Coming soon_ – <img width="1300" height="832" alt="image" src="https://github.com/user-attachments/assets/747ce504-9b92-4b5b-bddb-1c093e698279" />
+_Pic_ – <img width="1300" height="832" alt="image" src="https://github.com/user-attachments/assets/747ce504-9b92-4b5b-bddb-1c093e698279" />
 ---
 
 ## 🧠 Technologies Used
