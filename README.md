@@ -1,70 +1,58 @@
-# React + Vite
+# Graph Path Visualizer 🔍
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web-based visualizer for popular pathfinding algorithms built using **ReactJS**, **JavaScript**, **Vite**, and **Tailwind CSS**. This project enables users to understand how algorithms like **DFS**, **BFS**, and **Dijkstra’s** work in real-time on a 2D grid.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🎯 **Interactive Grid**: Place start/end nodes, create walls, and reset the grid.
+- 📌 **Algorithms Supported**:
+  - Breadth-First Search (BFS)
+  - Depth-First Search (DFS)
+  - Dijkstra’s Algorithm
+- 👀 **Real-time Visualization**: Step-by-step traversal of each node.
+- 📊 **Educational Overlay**: Learn time and space complexities in an intuitive way.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
 
+## 📷 UI Preview
 
-Graph Path Visualizer
+_Coming soon_ – <img width="1300" height="832" alt="image" src="https://github.com/user-attachments/assets/747ce504-9b92-4b5b-bddb-1c093e698279" />
+---
 
-A web-based visualizer for pathfinding algorithms built using ReactJS, JavaScript, HTML, and Tailwind CSS. This project allows users to explore and understand how different pathfinding algorithms like DFS, BFS, and Dijkstra's Algorithm work in real-time on a 2D grid.
+## 🧠 Technologies Used
 
-🚀 Features
+- ⚛️ ReactJS
+- 🧠 JavaScript (ES6+)
+- 💨 Tailwind CSS
+- 🌐 HTML5/CSS3
+- ⚡ Vite (build tool)
 
-🎯 Interactive Grid: Place start and end nodes, walls, and reset the grid easily.
+---
 
-📌 Multiple Algorithms:
+## 🛠️ Getting Started
 
-Breadth First Search (BFS)
+Follow these steps to run the project locally:
 
-Depth First Search (DFS)
-
-Dijkstra's Algorithm
-
-👀 Real-time Visualization: Watch the algorithm traverse nodes step-by-step.
-
-📊 Time/Space Complexity Awareness: Educational overlay for algorithm understanding.
-
-📷 Screenshots
-
-Coming soon — GIF or screenshots of the UI
-
-🧠 Technologies Used
-
-ReactJS
-
-JavaScript (ES6+)
-
-Tailwind CSS
-
-HTML5/CSS3
-
-🛠️ How to Run Locally
-
-Clone the repo:
-
+```bash
+# Clone the repository
 git clone https://github.com/aditya3singh/Graph-Path-Visualizer.git
 cd Graph-Path-Visualizer
 
-Install dependencies:
-
+# Install dependencies
 npm install
 
-Start the development server:
-
+# Start the development server
 npm run dev
+```
 
-Visit http://localhost:5173 in your browser to interact with the app.
+Navigate to: http://localhost:5173
 
-📁 Folder Structure
-
+📁 Project Structure
+arduino
+Copy
+Edit
 Graph-Path-Visualizer/
 ├── public/
 ├── src/
@@ -82,51 +70,39 @@ Graph-Path-Visualizer/
 ├── tailwind.config.js
 ├── vite.config.js
 └── README.md
-
-📚 Algorithms Explained
-
-🔍 DFS (Depth First Search)
-
-Explores as far as possible along each branch before backtracking.
+📚 Algorithm Summaries
+🔍 Depth-First Search (DFS): Explores as far as possible before backtracking.
 
 Uses recursion or a stack.
 
-🔍 BFS (Breadth First Search)
-
-Explores all neighbors at the present depth before moving to the next level.
+🔍 Breadth-First Search (BFS): Explores all neighbors at one depth before moving deeper.
 
 Uses a queue.
 
-🔍 Dijkstra’s Algorithm
-
-Finds the shortest path from the start to every other node in a weighted graph.
+🔍 Dijkstra’s Algorithm: Calculates the shortest path from start to all nodes.
 
 Uses a priority queue.
 
-📌 Controls
+🎮 Controls Guide
+Left Click: Place/remove wall
 
-Left-click to place walls.
+Shift + Click: Set Start Node
 
-Shift + Click to set the start node.
+Ctrl + Click: Set End Node
 
-Ctrl + Click to set the end node.
+Visualize Buttons: Run a selected algorithm
 
-Visualize Buttons to run each algorithm.
-
-Clear Button to reset the grid.
+Clear Button: Reset the grid
 
 🤝 Contribution
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Contributions are welcome!
+If you're planning major changes, kindly open an issue first to discuss.
 
 📜 License
-
-This project is licensed under the MIT License.
+Licensed under the MIT License.
 
 👨‍💻 Author
+Aditya Singh Gautam
+GitHub Profile
 
-Aditya Singh GautamFeel free to connect:
-
-GitHub
-
-LinkedIn
+Feel free to connect and contribute!
